@@ -1,0 +1,8 @@
+precio = float(input("Precio: "))
+unidades = int(input("Unidades: "))
+descuento = 0.10
+total = precio * unidades * (1 - descuento)
+print(f"Total: {total:.2f}")
+
+
+
